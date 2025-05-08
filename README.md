@@ -289,7 +289,7 @@ GROUP BY l.cidade;
 This query retrieves all confirmed reservations with check-in dates on or after April 24, 2025, and joins related tables to enrich each record with owner and guest names, stay duration, and nightly price.
 
 ## 3.4 Result
-![SQL Query Example](images/consulta_3-4.png)
+![SQL Query Example 2](images/consulta_3-4.png)
 
 ## 1) Filtering Criteria
 
@@ -380,7 +380,7 @@ These columns deliver human-readable details and pricing for each confirmed book
 This section analyzes five advanced queries that explore overlaps between guests and hosts, performance metrics for hosts, price trends, and age comparisons.
 
 ## 3.5 Result
-![SQL Query Example](images/consulta_3-5.png)
+![SQL Query Example 3](images/consulta_3-5.png)
 
 ## 1) Users Who Are Both Guests and Hosts
 
