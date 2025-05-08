@@ -37,22 +37,22 @@ INSERT INTO locador(cpf, nome, sobrenome, datanascimento, sexo, endereco, telefo
 ('31313131313','Juliana','Serenidade','1976-11-11','F','Rua do Sossego, 11','(51)3131-3131',NULL,'seren1');
 
 -- 3) Localizacao (15 tuplas)
-INSERT INTO localizacao(id_localizacao, cidade, estado, pais, cep, bairro) VALUES
-(1,'São Carlos','SP','Brasil','13566-250','Centro'),
-(2,'Araraquara','SP','Brasil','14801-000','Jardim'),
-(3,'Campinas','SP','Brasil','13040-001','Barão Geraldo'),
-(4,'Rio Claro','SP','Brasil','13500-000','Vila Nova'),
-(5,'Ibitinga','SP','Brasil','14900-000','Santo Antônio'),
-(6,'Belo Horizonte','MG','Brasil','30140-002','Savassi'),
-(7,'Curitiba','PR','Brasil','80010-000','Batel'),
-(8,'Florianópolis','SC','Brasil','88010-000','Centro'),
-(9,'Porto Alegre','RS','Brasil','90010-000','Moinhos de Vento'),
-(10,'Fortaleza','CE','Brasil','60010-000','Meireles'),
-(11,'Salvador','BA','Brasil','40010-000','Pelourinho'),
-(12,'Brasília','DF','Brasil','70010-000','Asa Sul'),
-(13,'Manaus','AM','Brasil','69010-000','Centro'),
-(14,'Recife','PE','Brasil','50010-000','Boa Vista'),
-(15,'Belém','PA','Brasil','66010-000','Cidade Velha');
+INSERT INTO localizacao(cidade, estado, pais, cep, bairro) VALUES
+('São Carlos','SP','Brasil','13566-250','Centro'),
+('Araraquara','SP','Brasil','14801-000','Jardim'),
+('Campinas','SP','Brasil','13040-001','Barão Geraldo'),
+('Rio Claro','SP','Brasil','13500-000','Vila Nova'),
+('Ibitinga','SP','Brasil','14900-000','Santo Antônio'),
+('Belo Horizonte','MG','Brasil','30140-002','Savassi'),
+('Curitiba','PR','Brasil','80010-000','Batel'),
+('Florianópolis','SC','Brasil','88010-000','Centro'),
+('Porto Alegre','RS','Brasil','90010-000','Moinhos de Vento'),
+('Fortaleza','CE','Brasil','60010-000','Meireles'),
+('Salvador','BA','Brasil','40010-000','Pelourinho'),
+('Brasília','DF','Brasil','70010-000','Asa Sul'),
+('Manaus','AM','Brasil','69010-000','Centro'),
+('Recife','PE','Brasil','50010-000','Boa Vista'),
+('Belém','PA','Brasil','66010-000','Cidade Velha');
 
 -- 4) Comodidade (15 tuplas)
 INSERT INTO comodidade(nome) VALUES

@@ -1,3 +1,4 @@
+-- como a atividade pede apenas 2 arquivos sql, compilamos todos os indices dos exercicios nesse unico arquivo para facilitar a correção
 \echo 'Carga de dados (atividade3_3-2.sql)'
 \i atividades-consultas/atividade3_3-2.sql
 

@@ -40,7 +40,7 @@ CREATE TABLE locador (
 -- localizações
 DROP TABLE IF EXISTS localizacao CASCADE;
 CREATE TABLE localizacao (
-  id_localizacao INTEGER,
+  id_localizacao SERIAL,
   cidade         VARCHAR(100),
   estado         VARCHAR(100),
   pais           VARCHAR(100),
