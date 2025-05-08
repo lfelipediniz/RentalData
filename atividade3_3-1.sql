@@ -1,12 +1,12 @@
 -- ---------------------------------------------------
--- 1) Criar (ou recriar) a base de dados
+-- Criar a base de dados
 -- ---------------------------------------------------
 DROP DATABASE IF EXISTS atividade3_bd;
 CREATE DATABASE atividade3_bd;
 \connect atividade3_bd
 
 -- ---------------------------------------------------
--- 2) Tabelas principais (sem restrições)
+-- Tabelas principais (sem restrições)
 -- ---------------------------------------------------
 
 -- hóspedes
@@ -160,7 +160,7 @@ CREATE TABLE conversa (
 );
 
 -- ---------------------------------------------------
--- 3) Tabelas associativas para N:M
+-- Tabelas associativas para N:M
 -- ---------------------------------------------------
 
 -- cada propriedade pode ter várias comodidades
