@@ -1,6 +1,6 @@
 # RentalData
 
-This project is a PostgreSQL-based implementation of a database model for an accommodation and reservation platform, following academic specifications.
+This project is a PostgreSQL-based implementation of a database model for an accommodation and reservation platform.
 
 It contains SQL scripts to create the schema, populate it with fictitious data, and run analytical queries. The scripts are executed inside a Docker PostgreSQL container.
 
